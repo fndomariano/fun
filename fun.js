@@ -1,16 +1,21 @@
 $(document).ready(function() {
 
-    getMessages();
+    getMessage();
+
+    setInterval(function(){
+        getMessage();
+    },3000);
 
 });
 
-var getMessages = function () {
+var getMessage = function () {
     $.ajax({
         type: "get",
         url: "messages.json",
         dataType: "json",
-        success: function(data) {
-            console.log(data);
+        success: function(data) {            
+            messages = shuffle(data.messages);
+            $('#message').text(messages[0]);
         },
         error: function(xhr, status, error){
             console.log("XHR: " + xhr);
