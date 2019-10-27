@@ -1,4 +1,4 @@
-#message {
+body {
     display: inline-block;
     position: fixed;
     top: 0;
@@ -9,5 +9,5 @@
     height: 100px;
     margin: auto;
     text-align: center;
-    font-size: 30px;
+    font-size: 60px;
 }
