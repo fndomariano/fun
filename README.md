@@ -2,7 +2,7 @@
 
 This is a small project that I made to fun me. 
 
-The messages were done by my friend [Adan](https://github.com/adanfm) that is very funny. I took notes and put them on the internet.
+Everything started with my friend [Adan](https://github.com/adanfm). He speaks many funny phrases, so I took notes and put them on the internet. Also, I am adding content from nother friends.
 
 Always I got a new message, I will put here.
 
